@@ -1,0 +1,159 @@
+#page,
+.site {
+  overflow: hidden;
+}
+body {
+  background-color: #fff;
+  color: #555;
+  font-size: calc(16px, 1.385vw, 1rem);
+  font-style: normal;
+  font-weight: 405;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  margin: 0;
+  text-align: left;
+}
+body,
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  display: block;
+}
+header {
+  display: block;
+  unicode-bidi: isolate;
+}
+.site-header > div {
+  position: relative;
+}
+.container {
+  justify-content: space-between !important;
+  display: flex !important;
+  margin: auto;
+  max-width: 1800px;
+  padding: 0 20px;
+}
+.site-logo {
+  margin-bottom: 0;
+}
+.site-header a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.01;
+  text-decoration: none;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+}
+.site-logo-img {
+  margin-top: 0;
+  height: 50px;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow-x: 0;
+  overflow-y: 0;
+}
+.navigation {
+  min-width: unset;
+}
+.nav {
+  margin: 15px 0;
+  display: block;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  unicode-bidi: isolate;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav ul {
+  display: flex;
+  gap: 5px 20px;
+  list-style: none;
+  margin: 0 -10px;
+  padding: 0;
+}
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+.nav li {
+  padding: 0;
+  white-space: nowrap;
+}
+li {
+  display: list-item;
+  unicode-bidi: isolate;
+}
+.nav a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.button-short-nav {
+  stroke: none;
+  background-color: lightskyblue;
+  color: #fff;
+  border-radius: 4px;
+  margin: auto;
+  white-space: nowrap;
+  border-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  line-height: 150%;
+  padding: 13px 20px;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.counteiner {
+  background-image: url(./web-dev-1.png);
+  bottom: 0;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.background-home2 {
+  bottom: 0;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.hero-block {
+  background-image: url(./web-dev-1.png);
+  bottom: 0;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  color: fuchsia;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  bottom: 2px;
+}

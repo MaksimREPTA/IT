@@ -1,0 +1,112 @@
+/* font-family: "Changa", sans-serif; */
+
+/* ===============================================================
+GENERAL STYLES
+=============================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+  font-family: "Changa", sans-serif;
+  font-weight: 400;
+}
+.page-section {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+/* ===============================================================
+NAVIGATION STYLES
+=============================================================== */
+
+.contacts-page .navbar .navbar-brand img {
+  width: 80px;
+  height: 104px;
+}
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(105, 105, 105, 1) 100%
+  );
+}
+.navbar .navbar-toggler {
+  border-color: transparent;
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item:not(:first-child) {
+    margin-left: 37px;
+  }
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #151616;
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+  font-weight: 700;
+  color: rgb(72, 154, 225);
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(72, 154, 225);
+}
+
+/* ===============================================================
+HEADER STYLES
+=============================================================== */
+
+.contacts-page header {
+  height: calc(100vh - 80px);
+  background-image: url(../images/contact-us.jpg);
+  background-size: cover;
+  text-align: center;
+}
+.contacts-page header .container,
+.contacts-page header .container .row {
+  height: 100%;
+}
+.contacts-page header h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 82px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 575px) {
+  .contacts-page .container .row .col h1 {
+    font-size: 44px;
+  }
+}
+.contacts-page header p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #d6d7d8;
+  max-width: 681px;
+  width: 100%;
+  margin: 10px auto 30px;
+}

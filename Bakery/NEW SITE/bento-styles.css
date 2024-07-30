@@ -1,0 +1,247 @@
+/*========================================
+GENERAL STYLES
+======================================= */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playwrite NZ", cursive;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playwrite NZ", cursive;
+  font-weight: 700;
+}
+
+.general-section {
+  padding: 50px 0;
+}
+
+.general-section .container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.general-section .title-part {
+  text-align: center;
+  margin-bottom: 71px;
+}
+
+.general-section .title-part h2 {
+  color: #222;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.general-section .title-part .red-row {
+  background: rgb(246, 158, 202);
+  width: 31px;
+  height: 5px;
+  margin: 19px auto;
+  border-radius: 10px;
+}
+
+.general-section .title-part p {
+  font-size: 20px;
+  color: #222;
+  margin: 0;
+}
+
+/*========================================
+NAVIGATION STYLES
+======================================= */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 47px 72px;
+  box-sizing: border-box;
+  background: rgb(252 243 228);
+}
+nav a {
+  text-decoration: none;
+  color: #222;
+}
+nav h1 {
+  font-size: 22px;
+  margin: 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 63px;
+}
+nav ul .active a,
+nav a:hover {
+  color: rgb(25, 200, 227);
+}
+nav .tortai-menu {
+  position: relative;
+  display: inline-block;
+}
+nav .tortai-menu button {
+  background: none;
+  color: #222;
+  border: none;
+  font-family: "Playwrite NZ", cursive;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+nav .tortai-menu button a {
+  color: #222;
+}
+nav .tortai-menu button a:hover {
+  color: rgb(25, 200, 227);
+}
+nav .tortai-menu button:hover {
+  color: rgb(25, 200, 227);
+}
+nav .tortai-menu .menu-language-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+nav .tortai-menu a {
+  color: rgba(255, 255, 255, 1);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+nav .menu-language-dropdown-content a:hover {
+  color: rgb(25, 200, 227);
+}
+.tortai-menu:hover .menu-language-dropdown-content {
+  display: block;
+}
+
+/*========================================
+CONTAINER STYLES
+======================================= */
+
+.container {
+  background: #f8f8f8;
+}
+.first-content {
+  background: rgb(251 216 206);
+  display: flex;
+  border-radius: 25px;
+  height: 485px;
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 27px;
+}
+.first-content img {
+  width: 702px;
+  height: 485px;
+  border-radius: 25px 0 0 25px;
+  object-fit: cover;
+}
+.first-content .first-content-text h1 {
+  color: rgb(25, 200, 227);
+  font-size: 2.2rem;
+}
+.first-content .first-content-text .buttons a {
+  text-decoration: none;
+  padding: 15px 66px;
+  display: inline-block;
+  color: #222;
+  background: rgb(246, 158, 202);
+  background: radial-gradient(
+    circle,
+    rgba(246, 158, 202, 1) 0%,
+    rgba(252, 243, 228, 1) 85%
+  );
+  border-radius: 14px;
+}
+
+/*========================================
+MENU STYLES
+======================================= */
+
+.bento-title-part {
+  background: #f8f8f8;
+}
+.bento-title-part .menu-content {
+  border: 5px solid rgb(25, 200, 227);
+  border-radius: 12px;
+  max-width: 522px;
+  margin: 0 auto;
+}
+.bento-title-part h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.general-section .red-row {
+  background: rgb(246, 158, 202);
+  width: 31px;
+  height: 5px;
+  margin: 19px auto;
+  border-radius: 10px;
+}
+.bento-title-part .menu-content .menu-offers {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  gap: 5px;
+}
+.bento-title-part .menu-content .menu-offers-tastes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(246, 158, 202);
+  font-size: 15px;
+  gap: 5px;
+}
+.bento-title-part .menu-content .menu-offers-tastes ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.bento-title-part .menu-content .menu-offers-tastes ul li {
+  color: #222;
+}
+
+/*========================================
+FOOTER STYLES
+======================================= */
+
+.nav-end .nav {
+  background: #5c5c5c;
+  color: #b0b0b0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.nav-end .nav h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+}
+.nav-end .nav ul li a {
+  color: #b0b0b0;
+}

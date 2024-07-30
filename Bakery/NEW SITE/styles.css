@@ -1,0 +1,380 @@
+/*========================================
+GENERAL STYLES
+======================================= */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playwrite NZ", cursive;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playwrite NZ", cursive;
+  font-weight: 700;
+}
+
+.general-section {
+  padding: 100px 0;
+}
+
+.general-section .container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.general-section .title-part {
+  text-align: center;
+  margin-bottom: 71px;
+}
+
+.general-section .title-part h2 {
+  color: #222;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.general-section .title-part .red-row {
+  background: rgb(246, 158, 202);
+  width: 31px;
+  height: 5px;
+  margin: 19px auto;
+  border-radius: 10px;
+}
+
+.general-section .title-part p {
+  font-size: 20px;
+  color: #222;
+  margin: 0;
+}
+
+/*========================================
+NAVIGATION STYLES
+======================================= */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 47px 72px;
+  box-sizing: border-box;
+  background: rgb(252 243 228);
+}
+nav a {
+  text-decoration: none;
+  color: #222;
+}
+nav h1 {
+  font-size: 22px;
+  margin: 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 63px;
+}
+nav ul .active a,
+nav a:hover {
+  color: rgb(25, 200, 227);
+}
+
+nav .tortai-menu {
+  position: relative;
+  display: inline-block;
+}
+nav .tortai-menu button {
+  background: none;
+  color: #222;
+  border: none;
+  font-family: "Playwrite NZ", cursive;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+nav .tortai-menu button:hover {
+  color: rgb(25, 200, 227);
+}
+nav .tortai-menu .menu-language-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+nav .tortai-menu a {
+  color: rgba(255, 255, 255, 1);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+nav .menu-language-dropdown-content a:hover {
+  color: rgb(25, 200, 227);
+}
+.tortai-menu:hover .menu-language-dropdown-content {
+  display: block;
+}
+
+/*========================================
+HEADER STYLES
+======================================= */
+
+header {
+  height: calc(100vh - 120px);
+  background: url(./Images/background.jpg) center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header .content {
+  width: 100%;
+  max-width: 1000px;
+}
+header h1 img {
+  height: 330px;
+  margin: 0;
+}
+header p {
+  font-size: 35px;
+  color: white;
+  margin: 16px 0 43px;
+}
+header .buttons a {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 15px 66px;
+  display: inline-block;
+}
+header .buttons .primary-button {
+  color: #222;
+  background: rgb(246, 158, 202);
+  background: radial-gradient(
+    circle,
+    rgba(246, 158, 202, 1) 0%,
+    rgba(252, 243, 228, 1) 85%
+  );
+  border-radius: 12px;
+  margin-right: 21px;
+}
+header .buttons .secondary-button {
+  color: #222;
+  background: rgb(246, 158, 202);
+  background: radial-gradient(
+    circle,
+    rgba(246, 158, 202, 1) 0%,
+    rgba(252, 243, 228, 1) 85%
+  );
+  border-radius: 12px;
+}
+
+/*========================================
+CITATION STYLES
+======================================= */
+
+.citation {
+  background-color: rgb(252 243 228);
+  padding: 39px 0;
+}
+.citation p {
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  color: #222;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/*========================================
+CUSTOMERS STYLES
+======================================= */
+
+.customers-section {
+  background: #f8f8f8;
+}
+
+.customers-section .content-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.customers-section .content-part .customers-block {
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 28px 40px;
+}
+
+.customers-section .content-part .customers-block .images img {
+  width: 238px;
+  height: 238px;
+  object-fit: cover;
+  border: 2px solid white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+/*========================================
+GALLERY STYLES
+======================================= */
+
+.gallery-section {
+  background: rgb(252 243 228);
+}
+.gallery-section .content-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+.gallery-section .content-part img {
+  width: 245px;
+  height: 212px;
+  object-fit: cover;
+}
+
+/*========================================
+ORDERS STYLES
+======================================= */
+
+.orders-section {
+  background: #f8f8f8;
+}
+.orders-section .content-part {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 28px 40px;
+}
+.orders-section .content-part .order-block {
+  width: 424px;
+  height: 375px;
+  background: rgb(252 243 228);
+  border: 2px solid white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.orders-section .content-part .order-block .order-price {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.orders-section .content-part .order-block .order-price .numbers {
+  font-size: 16px;
+  color: rgb(25, 200, 227);
+}
+.orders-section a {
+  text-decoration: none;
+  padding: 15px 66px;
+  display: inline-block;
+  color: #222;
+  background: rgb(246, 158, 202);
+  background: radial-gradient(
+    circle,
+    rgba(246, 158, 202, 1) 0%,
+    rgba(252, 243, 228, 1) 85%
+  );
+  border-radius: 10%;
+}
+
+/*========================================
+MAP STYLES
+======================================= */
+
+.location-section {
+  background: rgb(252 243 228);
+}
+.location-section .content-part {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 28px 40px;
+}
+.location-section .content-part .map .map-images img {
+  display: flex;
+  justify-content: center;
+  width: 1320px;
+  height: 443px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 28px 40px;
+  border-radius: 10px;
+}
+
+/*========================================
+CONTACT STYLES
+======================================= */
+.contact-section {
+  background: #f8f8f8;
+}
+.contact-section .content-part {
+  font-display: flex;
+}
+.contact-section .content-part .other-content {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-section .content-part .other-content .contact-block .icons {
+  display: flex;
+  gap: 5px;
+}
+.contact-section .content-part .other-content .contact-block .meta-icons {
+  display: flex;
+  gap: 10px;
+}
+.contact-section .content-part .other-content .contact-block .meta-icons a {
+  display: flex;
+  align-items: center;
+}
+.contact-section .content-part .other-content .massage-block a {
+  text-decoration: none;
+  padding: 15px 66px;
+  display: inline-block;
+  color: #222;
+  background: rgb(246, 158, 202);
+  background: radial-gradient(
+    circle,
+    rgba(246, 158, 202, 1) 0%,
+    rgba(252, 243, 228, 1) 85%
+  );
+  border-radius: 25%;
+}
+
+/*========================================
+FOOTER STYLES
+======================================= */
+
+.nav-end .nav {
+  background: #5c5c5c;
+  color: #b0b0b0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.nav-end .nav h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+}
+.nav-end .nav ul li a {
+  color: #b0b0b0;
+}

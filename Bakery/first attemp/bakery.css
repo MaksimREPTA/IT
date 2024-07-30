@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.mygtukas {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  line-height: 26px;
+  letter-spacing: 0.42px;
+  border: 3px solid #a618d5;
+  color: #7b13a3;
+  border-radius: 12px;
+  padding: 8px;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+}
+.menu {
+  text-align: center;
+  position: relative;
+  bottom: 127px;
+}
+.menu a:hover {
+  color: #ffffff;
+  background-color: #b54eda;
+  border: 3px solid #6f097f;
+  top: 1px;
+}
+.home {
+  background-color: floralwhite;
+  box-shadow: 5px 10px #000000;
+}
+.logo {
+  height: 200px;
+  position: relative;
+  top: 0px;
+  display: block;
+}
+.login {
+  height: 40px;
+  position: absolute;
+  top: 82px;
+  left: 196px;
+}
+.bag {
+  height: 40px;
+  position: absolute;
+  top: 82px;
+  right: 196px;
+}
+.profil-foto {
+  position: relative;
+  height: 700px;
+  border-radius: 12px;
+  top: 20px;
+  left: 90px;
+  box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px,
+    rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px,
+    rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px,
+    rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px,
+    rgb(255, 85, 85) 40px -40px;
+}
+.home-content {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(241, 187, 224, 1) 54%,
+    rgba(125, 221, 241, 1) 100%
+  );
+}
+.content-about {
+  background: linear-gradient(
+    90deg,
+    rgb(2, 0, 36) 0%,
+    rgb(232, 7, 159) 56%,
+    rgb(0, 212, 255) 100%
+  );
+  position: absolute;
+  max-width: 28%;
+  margin: 20em auto;
+  padding: 7em;
+  top: 20px;
+  left: 700px;
+  border: 3px solid rgb(111, 9, 127);
+}
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  line-height: 48px;
+  letter-spacing: 0.42px;
+}
+.title,
+.text {
+  color: #ffffff;
+  padding: 6px;
+}
+.text {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  line-height: 26px;
+  letter-spacing: 0.42px;
+}
+.instagram {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  line-height: 26px;
+  letter-spacing: 0.42px;
+  border: 3px solid #b54eda;
+  color: #b54eda;
+  border-radius: 12px;
+  padding: 8px;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+}
+.content-about a:hover {
+  color: #ffffff;
+  background-color: #b54eda;
+  border: 3px solid #6f097f;
+}
+.first {
+  position: absolute;
+  top: -87px;
+  left: -61px;
+}
+.second {
+  position: absolute;
+  bottom: -34px;
+  right: -24px;
+}
+.third {
+  position: absolute;
+  bottom: 27px;
+  right: -39px;
+}
+.fourth {
+  position: absolute;
+  bottom: 8px;
+  right: -62px;
+}

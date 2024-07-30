@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-image: url(./Hawaii\ Islands\ Waterfall7453611102.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+header #info a {
+  margin: 0;
+  display: inline-block;
+  background-color: aqua;
+  color: black;
+  font-size: 2em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header #info p {
+  background-color: black;
+  color: azure;
+  font-size: 1.5em;
+  max-width: 89%;
+}
+header #info {
+  position: absolute;
+  left: 10em;
+  bottom: 15em;
+  margin: 0;
+  background: none;
+}
+#info a:hover {
+  position: relative;
+  left: 30px;
+  color: chartreuse;
+  background-color: darkgreen;
+}

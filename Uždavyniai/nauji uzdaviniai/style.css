@@ -1,0 +1,70 @@
+body {
+  background-color: aqua;
+}
+div {
+  background-color: antiquewhite;
+  max-width: 80%;
+  margin: 5em auto;
+}
+#Antras {
+  padding: 5em;
+  border-radius: 150px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+#Trecias {
+  padding: 5em 0;
+  border-bottom: 10px solid yellow;
+  border-right: 15px dashed blue;
+}
+#Ketvirtas {
+  padding: 0 5em 1em;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 50px;
+}
+#Penktas {
+  padding-bottom: 5em;
+  border-left: 10px dashed red;
+}
+#Pirmas {
+  border: 12px solid green;
+  box-shadow: 5px 5px 15px black;
+}
+#pirmas1 li {
+  display: inline;
+}
+#antras1 li {
+  display: inline;
+}
+#trecias1 li {
+  display: inline;
+}
+#ketvirtas1 li {
+  display: inline;
+}
+#penktas1 li {
+  display: inline;
+}
+#login form {
+  background-color: aqua;
+  width: 500px;
+  padding: 1em;
+}
+#login input {
+  display: block;
+}
+#zyma p {
+  font-size: 2em;
+}
+#zyma a {
+  font-size: 2em;
+  transition: all 1s ease;
+}
+#zyma mark:hover {
+  position: relative;
+  bottom: 10px;
+}
+#zyma a:hover {
+  position: relative;
+  left: 20px;
+  color: green;
+}

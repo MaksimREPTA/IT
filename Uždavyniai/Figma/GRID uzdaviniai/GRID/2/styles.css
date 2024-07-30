@@ -1,0 +1,22 @@
+.boxes {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 1rem;
+}
+.box {
+  background: gray;
+  font-size: 3rem;
+  color: white;
+}
+.logo {
+  grid-column: 1 / 3;
+}
+.footer {
+  grid-column: 1 / 3;
+}
+.main {
+  grid-column: 2 / 3;
+}
+.sidebar {
+  grid-row: 2 / 4;
+}
